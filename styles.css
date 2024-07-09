@@ -1,0 +1,268 @@
+@charset "utf-8";
+@font-face {
+  src: url(fonts/panpizza.ttf);
+  font-family: nos;
+}
+@font-face {
+  src: url(fonts/Limelight-Regular.ttf);
+  font-family: limelight;
+}
+/* styles sheet */
+
+body{
+  background: black;
+}
+
+/* Header Styles */
+.main-nav ul li{
+  list-style: none;
+}
+
+.main-nav ul li a{
+  text-decoration: none;
+  font-size: 25px;
+}
+/*
+.main-nav ul li a{
+  box-shadow: black;
+}
+*/
+.main-nav ul li a:hover, .main-nav ul li a:visited, .main-nav ul li a:link{
+  color: white;
+}
+
+header{
+	border-bottom: 10px solid rgb(31, 16, 13);
+}
+
+/* Menu Text Style*/
+.h1_menu, .h1_menu_sand{
+  font-size: 50px;
+  font-weight: lighter;
+  font-family: nos;
+}
+
+.div_menu p{
+  font-size: 20px;
+}
+
+.div_menu h2{
+  font-size: 20px;
+}
+
+/* Dropdown Location Buttons Styling */
+.dropbtn {
+  background-color: gray;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: rgb(179, 176, 168);
+}
+
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: gray;
+}
+
+/* Table Styling */
+table{
+  border-collapse: collapse;
+}
+
+.table a:link, a:active, a:visited{
+  color: blue;
+  text-decoration: underline;
+}
+
+.table a:hover{
+  color: purple;
+}
+
+td, th{
+  border: 1px solid #8c8c8c
+}
+
+thead{
+  background: #5c5a55;
+}
+
+tbody{
+  background: #ccc;
+}
+
+/* Form Styling */
+::placeholder{
+  color: black;
+  opacity: 1;
+}
+
+.singup-form{
+  background: #3c3c42;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  height: 465px;
+  width: 350px;
+  box-shadow: -3px -2px 6px #6c6565, 7px 9px 25px #0b0b0b;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input{
+  height: 30px;
+  border: 2px solid #e1dede69;
+  border-radius: 5px;
+  background: #777272;
+  color: black;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+}
+
+.form-item-username{
+  margin: 5px;
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.form-item-username input{
+  width: 150px;
+  margin: 0 5px;
+}
+
+.form-item{
+  margin: 0 auto;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+}
+
+.form-item input{
+  margin: 5px;
+  width: 100%;
+}
+
+.accept-box{
+  display: flex;
+  align-items: center;
+  margin: auto;
+  font-size: 15px;
+}
+
+.signup-form a{
+  color: black;
+}
+
+.signup-form a:hover{
+  color: grey
+}
+
+.form-btns{
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+}
+
+.form-btns button{
+  margin: auto;
+  font-size: 20px;
+  padding: 8px;
+  width: 280px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: rgb(75, 61, 61);
+  background: #fbba50;
+        }
+
+.form-btns button:disabled{
+  cursor: not-allowed;
+  background: #8f8b85 !important;
+  color: black !important;
+}
+
+.form-btns button:hover{
+  background: #d88a0c;
+  color: antiquewhite;
+}
+
+.options{
+  padding-top: 15px;
+  margin: auto;
+  font-size: 13px;
+}
+
+.signup-form p {
+  font-size: 12px;
+}
+
+.pwd-format {
+  position: relative;
+  color: rgb(65, 62, 62);
+  background: rgb(243, 234, 243);
+  font-size: 11px;
+  width: 150px;
+  padding: 5px;
+  border-radius: 5px;
+  top: 112px;
+  right: -81px;
+  z-index: 2;
+  display: none;
+}
+
+/* About Page Text Style*/
+.about_us_text h1{
+  font-size: 25px;
+}
+
+.about_us_text p{
+  font-size: 20px;
+}
+/* Footer Styling */
+.footer{
+  color: white;
+}
+
+.footer :visited, :active, :link{
+  color: white;
+  text-decoration: none;
+}
+
+.footer :hover{
+  color: grey;
+}

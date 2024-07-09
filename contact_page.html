@@ -1,0 +1,140 @@
+<!-- contact page -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="reset.css">
+  </head>
+  <body>
+
+    <header>
+      <div class="navigation">
+      <a href="index.html"><img src="pizza.png" alt="Pizza Pie" class="logo"></a>
+
+      <nav class="main-nav">
+        <ul>
+          <li><a href="menu_page.html">Menu</a></li>
+          <li><a href="contact_page.html">Contact Us</a></li>
+          <li><a href="about_us_page.html">About Us</a></li>
+        </ul>
+      </nav>
+      </div>
+    </header>
+    <div class="gen-layout">
+      <section class="contact_text">
+        <div class="dropdown">
+          <button class="dropbtn">Locations</button>
+          <div class="dropdown-content">
+            <a href="https://www.google.com/maps/place/Yorkville,+IL/@41.6560615,-88.509789,12z/data=!3m1!4b1!4m5!3m4!1s0x880eea4e4c92e9e5:0xe5738afb676f983!8m2!3d41.6411409!4d-88.4472948">
+              Yorkville</a>
+            <a href="https://www.google.com/maps/place/Champaign,+IL/@40.1147412,-88.3471501,12z/data=!3m1!4b1!4m5!3m4!1s0x880cd08dde97691b:0x30f57847b475bfcf!8m2!3d40.1164204!4d-88.2433829">
+              Champaign</a>
+            <a href="https://www.google.com/maps/place/Peoria,+IL/@40.7482124,-89.7624745,11z/data=!3m1!4b1!4m5!3m4!1s0x880a595c535879ad:0xcafbf4326b7d80db!8m2!3d40.6936488!4d-89.5889864">
+              Peoria</a>
+            <a href="https://www.google.com/maps/place/Springfield,+IL/@39.7640172,-89.8109181,11z/data=!3m1!4b1!4m5!3m4!1s0x8875391d24dbd177:0xe72c82eecca86d22!8m2!3d39.7817213!4d-89.6501481">
+              Springfield</a>
+            <a href="https://www.google.com/maps/place/Joliet,+IL/@41.5131871,-88.2902559,11z/data=!3m1!4b1!4m5!3m4!1s0x880e456bec363d7d:0x9f9e66f7a36bc042!8m2!3d41.525031!4d-88.0817251">
+              Joilet</a>
+            <a href="https://www.google.com/maps/place/Chicago,+IL/@41.8339042,-88.0121581,10z/data=!3m1!4b1!4m5!3m4!1s0x880e2c3cd0f4cbed:0xafe0a6ad09c0c000!8m2!3d41.8781136!4d-87.6297982">
+              Chicago</a>
+          </div>
+        </div>
+          <audio controls autoplay>
+            <source src="fanfare.mp3" type="audio/mpeg">
+            If you can see this, update your browser
+          </audio>
+        <h1><u>Contact Our Locations</u></h1>
+        <table class="table">
+          <caption>Location Phone/Hours</caption>
+          <thead>
+          <tr>
+            <td>Location</td>
+            <td>Phone</td>
+            <td>Manager</td>
+            <td>Hours</td>
+          </tr>
+          </thead>
+          <tr>
+            <td>Yorkville</td>
+            <td><a href="tel:630-123-4567">630-123-4567</a></td>
+            <td>Adrian Alvarez</td>
+            <td rowspan="2">Mon-Sun 12pm-10pm</td>
+          </tr>
+          <tr>
+            <td>Champaign</td>
+            <td><a href="tel:217-987-6541">217-987-6541</a></td>
+            <td>John Stamos</td>
+          </tr>
+          <tr>
+            <td>Peoria</td>
+            <td><a href="tel:309-821-6483">309-821-6483</a></td>
+            <td>Emma Watson</td>
+            <td>Mon-Sat 12pm-10pm</td>
+          </tr>
+          <tr>
+            <td>Springfield</td>
+            <td><a href="tel:217-842-9842">217-842-9842</a></td>
+            <td>Mike Ditka</td>
+            <td rowspan="2">Mon-Sun 12pm-12am</td>
+          </tr>
+          <tr>
+            <td>Joliet</td>
+            <td><a href="tel:779-485-3548">779-485-3548</a></td>
+            <td>Justin Fields</td>
+          </tr>
+          <tr>
+            <td>Chicago</td>
+            <td><a href="tel:312-843-9812">312-843-9812</a></td>
+            <td>Michael Jordan</td>
+            <td>Mon-Sun 12pm-2am</td>
+          </tr>
+        </table>
+
+          <h1><u>Rewards Program</u></h1>
+          <div class="signup-form">
+            <h2>Sign Up</h2>
+
+            <form action="/action_page.php">
+                <div class="form-item-username">
+                    <input type="text" name="firstName" id="firstName" placeholder="First Name">
+                    <input type="text" name="lastName" id="lastName" placeholder="Last Name">
+                </div>
+
+                <div class="form-item">
+                    <input type="email" name="email" id="email" placeholder="Email">
+                </div>
+
+                <div class="form-item">
+                    <!-- add a password format display -->
+                    <span class="pwd-format">
+                        8-15 AlphaNumeric Characters
+                    </span>
+                    <input type="password" name="password" id="password" placeholder="Enter password">
+                    <input type="password" name="confirmPassword" id="confirmPassword" placeholder="Confirm password">
+                </div>
+
+                <div class="accept-box">
+                    <input type="checkbox" name="accept" id="accept">
+                    <p>I accept the <a href="#">Terms & Conditions</a></p>
+                </div>
+
+                <div class="form-btns">
+                    <button class="signup" type="submit" disabled>Sign Up</button>
+                    <div class="options">
+                        Already have an account? <a href="#">Login here</a>
+                    </div>
+                </div>
+
+            </form>
+          </div>
+      </section>
+    </div>
+
+    <footer class="footer"><a href="mailto:abc@example.com">Email</a> |
+      Terms and Conditions | Privacy Policy<br>
+      &copy; Copyright Adrian Alvarez 2022</footer>
+    </body>
+</html>

@@ -1,0 +1,166 @@
+@charset "utf-8";
+/* layout sheet */
+
+body{
+	width: 100%;
+	max-width: 100%;
+	margin: 0;
+	position: relative;
+}
+
+.gen-layout{
+	width: 100%;
+	max-width: inherit;
+	height: 100%;
+	max-height: inherit;
+}
+
+/* Header Layout */
+body > header{
+	width: 100%;
+	margin: 0;
+	padding: 0px;
+}
+
+.logo{
+  float: left;
+	height: 100px;
+	width: 100px;
+	margin-left: 45px;
+}
+
+.main-nav ul li a{
+	display: block;
+  float: left;
+  margin-left: 250px;
+  margin-right: 50px;
+  margin-top: 35px;
+	position: relative;
+}
+
+header::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Layout of Home Page */
+.chef-vid{
+	display: block;
+	width: 100%;
+}
+
+/* General Layout of the body */
+.gen-layout section{
+	max-width: 1200px;
+	padding-top: 20px;
+	margin: auto;
+}
+
+.gen-layout p{
+	margin-bottom: 20px;
+}
+
+.gen-layout h1{
+	margin-bottom: 5px;
+}
+
+.gen-layout section{
+	background: rgb(228, 220, 230);
+	padding: 10px;
+}
+
+/* Footer Layout */
+.footer{
+	background-image: url(dark_oak_wood.jpg);
+	text-align: center;
+}
+
+/* Background Images*/
+.gen-layout{
+	background-image: url(light_oak.jpg);
+}
+
+header{
+  background-image: url(dark_oak_wood.jpg);
+}
+
+/* Figure Layout */
+.gen-layout figure{
+	border-style: solid;
+	border-width: 25px;
+	border-image: url(chef_border.png) 50 repeat;
+	margin: 10px 250px;
+	width: 58.5%
+}
+
+.gen-layout figure figcaption{
+	background-color: white;
+	text-align: center;
+}
+
+/* Menu Photo layout for the Right Side*/
+.h1_menu{
+	margin-left: 790px;
+}
+
+.h1_menu_sand{
+	margin-left: 760px;
+}
+
+.food_photo{
+	float: left;
+	margin: 10px 40px;
+	max-width: 365px;
+	max-height: 365px;
+}
+
+.div_menu{
+	text-align: center;
+}
+
+.div_menu h2{
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.next_page_button{
+	text-align: right;
+	font-size: 20px;
+}
+
+.previous_page_button{
+	text-align: left;
+	font-size: 20px;
+}
+
+/* Contact Page Layout */
+.contact_text h1{
+	font-size: 30px;
+	text-align: center;
+	margin: 15px 0px;
+}
+
+.dropdown{
+	float: right;
+}
+
+.table{
+	text-align: center;
+	width: 100%;
+	margin-bottom: 25px;
+}
+
+.table caption{
+	margin-bottom: 10px;
+}
+/* About Page Text Layout */
+.about_us_text h1{
+	text-align: center;
+	margin-top: 15px;
+}
+
+.about_us_text p{
+	text-align: center;
+	margin: 5px 10px;
+}
